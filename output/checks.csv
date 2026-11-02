@@ -1,0 +1,14 @@
+check,value,limit,ok
+"Construction: largest gap from published productivity, %",0.0918,0.2,True
+"Construction: largest gap from published labour share, points",0.0485,0.1,True
+"Manufacturing: largest gap from published productivity, %",0.1003,0.2,True
+"Manufacturing: largest gap from published labour share, points",0.0489,0.1,True
+"Utilities: largest gap from published productivity, %",0.0281,0.2,True
+"Utilities: largest gap from published labour share, points",0.0485,0.1,True
+"13 sectors vs published business sector: productivity growth 1997-2024, gap in log points",1.2477,3.0,True
+"Accounting terms add to the real survey wage, largest gap",0.0,0.0,True
+"Sector accounting adds up, largest gap",0.0,0.0,True
+Sectors missing from the wage table,0.0,0.0,True
+Sectors missing from the union table,0.0,0.0,True
+Sectors missing from the US table,0.0,0.0,True
+Survey files vs published wage table: 1 minus the correlation of sector pay growth,0.0112,0.15,True

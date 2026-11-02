@@ -1,0 +1,5 @@
+outcome,regressor,coefficient,low,high,p,se_clustered,se_sector_year,se_robust,clusters,n
+pay,"productivity, last year",-0.02219,-0.04469,0.0216,0.19784,0.01266,0.01497,0.01476,13,3246
+pay,"productivity, this year",0.00888,-0.02512,0.04855,0.54351,0.01475,0.01544,0.0155,13,3246
+pay,"productivity, next year",-0.00893,-0.03913,0.02316,0.53471,0.0131,0.01497,0.01539,13,3246
+productivity,"pay, last year",-0.01514,-0.07994,0.05556,0.65633,0.03066,0.03799,0.03987,13,3375

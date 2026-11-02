@@ -1,0 +1,7 @@
+years,part,coefficient,low,high,p,se_clustered,se_sector_year,se_robust,clusters,n
+1,Real total compensation per hour,0.11325,0.05539,0.23283,0.0002,0.04015,0.02528,0.02096,13,2990
+1,Labour share (sign flipped),0.57682,0.3084,0.771,0.0026,0.11889,0.07914,0.07151,13,2990
+1,Output prices vs CPI (sign flipped),0.30993,0.12671,0.54013,0.0028,0.0978,0.07487,0.06646,13,2990
+5,Real total compensation per hour,0.13504,0.06312,0.31034,0.0,0.04678,0.02031,0.01678,13,1950
+5,Labour share (sign flipped),0.4417,0.1864,0.7453,0.0016,0.14364,0.06369,0.05667,13,1950
+5,Output prices vs CPI (sign flipped),0.42326,0.07897,0.70767,0.0156,0.1558,0.06454,0.05619,13,1950

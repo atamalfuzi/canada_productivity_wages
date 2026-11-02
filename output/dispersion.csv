@@ -1,0 +1,4 @@
+part,share_of_variance,lowest_leaving_one_out,highest_leaving_one_out
+Real total compensation per hour,0.1228,-0.0019,0.2688
+Labour share (sign flipped),0.1076,-0.0651,0.2301
+Output prices vs CPI (sign flipped),0.7696,0.7044,1.0671

@@ -1,0 +1,11 @@
+sector_measure,trait,spearman
+pass-through,union coverage,-0.484
+pass-through,labour share,0.824
+pass-through,share with a degree,-0.066
+pass-through,productivity growth,-0.082
+pass-through,raw pay level,-0.643
+pay growth less productivity growth,union coverage,0.264
+pay growth less productivity growth,labour share,0.104
+pay growth less productivity growth,share with a degree,0.082
+pay growth less productivity growth,productivity growth,-0.934
+pay growth less productivity growth,raw pay level,0.478

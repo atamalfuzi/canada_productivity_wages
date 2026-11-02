@@ -1,0 +1,25 @@
+pay,deflator,years,coefficient,low,high,p,se_clustered,se_sector_year,se_robust,clusters,n
+Survey hourly wage,CPI,1,0.01393,-0.02614,0.05022,0.40668,0.01574,0.01467,0.01489,13,3505
+Survey hourly wage,own output price,1,0.32578,0.1527,0.54897,0.0026,0.09481,0.07234,0.06559,13,3115
+National accounts wage rate,CPI,1,0.11176,0.0582,0.22425,0.0,0.03717,0.01851,0.01529,13,3510
+National accounts wage rate,own output price,1,0.40859,0.22532,0.6547,0.001,0.109,0.07348,0.0668,13,3120
+Employee compensation per hour,CPI,1,0.12957,0.07644,0.23759,0.0004,0.03686,0.0204,0.01685,13,3510
+Employee compensation per hour,own output price,1,0.42274,0.23089,0.68585,0.0012,0.11411,0.07499,0.06838,13,3120
+Total compensation per hour,CPI,1,0.13052,0.0708,0.25594,0.0002,0.04144,0.02354,0.01923,13,3510
+Total compensation per hour,own output price,1,0.4286,0.24259,0.68574,0.001,0.11389,0.07594,0.06859,13,3120
+Survey hourly wage,CPI,5,-0.01273,-0.05854,0.03774,0.54871,0.01946,0.01134,0.01117,13,2985
+Survey hourly wage,own output price,5,0.40546,0.12744,0.617,0.0044,0.12581,0.05739,0.05754,13,2595
+National accounts wage rate,CPI,5,0.10737,0.04641,0.24261,0.0006,0.03965,0.0133,0.01099,13,2990
+National accounts wage rate,own output price,5,0.52157,0.26483,0.71692,0.0018,0.11618,0.0557,0.05648,13,2600
+Employee compensation per hour,CPI,5,0.13995,0.0748,0.28914,0.0002,0.04374,0.01437,0.0119,13,2990
+Employee compensation per hour,own output price,5,0.55412,0.28901,0.75583,0.0018,0.11997,0.05708,0.05766,13,2600
+Total compensation per hour,CPI,5,0.1482,0.07976,0.30495,0.0,0.04596,0.01597,0.01339,13,2990
+Total compensation per hour,own output price,5,0.56049,0.30838,0.7523,0.0018,0.11409,0.05639,0.05731,13,2600
+Survey hourly wage,CPI,10,-0.02844,-0.07132,0.02684,0.24565,0.01984,0.01029,0.01088,13,2335
+Survey hourly wage,own output price,10,0.42535,0.14289,0.63413,0.0068,0.12782,0.05161,0.06599,13,1945
+National accounts wage rate,CPI,10,0.07781,0.02182,0.22152,0.005,0.03885,0.01342,0.01148,13,2340
+National accounts wage rate,own output price,10,0.51798,0.26258,0.69729,0.002,0.11312,0.04837,0.0638,13,1950
+Employee compensation per hour,CPI,10,0.118,0.05263,0.2836,0.0002,0.04536,0.01477,0.01248,13,2340
+Employee compensation per hour,own output price,10,0.56093,0.29658,0.74267,0.0016,0.11464,0.04874,0.06451,13,1950
+Total compensation per hour,CPI,10,0.12997,0.0575,0.30146,0.0006,0.05028,0.01574,0.0139,13,2340
+Total compensation per hour,own output price,10,0.56952,0.3239,0.74351,0.0018,0.10652,0.04713,0.06358,13,1950

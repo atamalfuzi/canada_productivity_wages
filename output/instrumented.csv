@@ -1,0 +1,11 @@
+method,instrument,years,coefficient,low,high,p,se_clustered,se_sector_year,se_robust,clusters,n,first_stage,first_stage_F
+Least squares,,1,0.01409,-0.02346,0.05311,0.37708,0.01533,0.01472,0.01512,13,3376,,
+Reduced form,"Same sector, other provinces",1,0.01289,-0.04674,0.11228,0.64973,0.02956,0.02775,0.02653,13,3376,,
+Instrumented,"Same sector, other provinces",1,0.02041,-0.06962,0.22355,0.64973,0.04805,0.04427,0.04207,13,3376,0.63173,94.86979
+Reduced form,"Same sector, US",1,0.00988,-0.03522,0.08202,0.67954,0.02347,0.02566,0.02156,13,3376,,
+Instrumented,"Same sector, US",1,0.05444,-0.21965,0.52787,0.67954,0.12967,0.14165,0.11864,13,3376,0.18142,12.23559
+Least squares,,5,-0.00895,-0.05499,0.04187,0.67453,0.01996,0.01164,0.01154,13,2856,,
+Reduced form,"Same sector, other provinces",5,-0.03998,-0.1687,0.06491,0.46269,0.04962,0.02676,0.02175,13,2856,,
+Instrumented,"Same sector, other provinces",5,-0.08277,-0.47453,0.12858,0.46269,0.10731,0.05672,0.04683,13,2856,0.48301,29.49709
+Reduced form,"Same sector, US",5,0.05653,-0.03247,0.13841,0.20144,0.03705,0.01705,0.01463,13,2856,,
+Instrumented,"Same sector, US",5,0.36998,-inf,inf,0.20144,0.41601,0.16443,0.13157,13,2856,0.15279,2.81743
