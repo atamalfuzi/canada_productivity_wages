@@ -4,7 +4,7 @@
 
 How closely pay in Canada follows productivity, in 13 business sectors and 10 provinces, using open Statistics Canada tables for 1997 to 2024 and 8.1 million public survey records of employees for 2006 to 2024. Python, with pandas and SciPy.
 
-This began as a proposal for my labour economics course at Simon Fraser University. It had no results, because it depended on restricted survey access through the Canadian Research Data Centre Network. This version answers its three questions from open data and changes parts of its design, listed [below](#changes-from-the-proposal).
+It began as an unpublished research proposal with no results, because it depended on restricted survey access through the Canadian Research Data Centre Network. This version answers its three questions from open data and changes parts of its design, listed [below](#changes-from-the-proposal).
 
 Results are as of November 2026.
 

@@ -6,7 +6,7 @@ For the website session. Nothing here has been published to the site. Figures ar
 
 **Productivity and pay by sector in Canada**
 
-Open-data study, 2026 (from an SFU labour economics proposal)
+Open-data study, 2026
 
 Whether pay in Canada follows productivity, across 13 business sectors and 10 provinces from 1997 to 2024, using Statistics Canada tables and 8.1 million public survey records. Over the whole period, compensation and productivity grew by about the same amount, but a sector's own productivity gains show up mostly in lower relative prices, with little in its workers' pay. Education and minimum wages account for more of the rise in pay since 2006 than sector productivity does.
 
@@ -16,7 +16,7 @@ Repository: https://github.com/atamalfuzi/canada_productivity_wages
 
 ### Productivity and pay by sector in Canada
 
-This began as a proposal for my labour economics course at Simon Fraser University. It had no results, because it depended on restricted survey access. This version answers its three questions from open data: Statistics Canada's productivity and labour tables for 1997 to 2024, and Labour Force Survey public files for 2006 to 2024. It also changes parts of the design, including the standard errors, the deflators and the treatment of minimum wages. These results describe how pay and productivity move together. They are not causal estimates.
+How far does pay in Canada follow productivity, and why do sectors differ? This answers three questions from open data: Statistics Canada's productivity and labour tables for 1997 to 2024, and Labour Force Survey public files for 2006 to 2024. It also changes parts of the design, including the standard errors, the deflators and the treatment of minimum wages. These results describe how pay and productivity move together. They are not causal estimates.
 
 **Figure: `figures/aggregate.png`**
 
@@ -32,7 +32,7 @@ Real pay rose 22.1 log points from 2006 to 2024. A regression on 8.1 million wor
 
 **Figure: `figures/wage_change.png`**
 
-Productivity here is measured by sector, province and year, so every worker in a cell shares it. Robust errors, which the proposal planned to use, would make the estimate look about 18 times as precise as clustering by sector does.
+Productivity here is measured by sector, province and year, so every worker in a cell shares it. Robust errors alone would make the estimate look about 18 times as precise as clustering by sector does.
 
 **Figure: `figures/clustering.png`**
 
