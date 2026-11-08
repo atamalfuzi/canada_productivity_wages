@@ -48,16 +48,16 @@ Following Feldstein (2008), I compare compensation and productivity in the same 
 
 The survey and the national accounts disagree a good deal over shorter periods, by 7 log points in 1997-2007 and in the other direction after. The survey records usual pay as reported by households, and the national accounts draw on employer and tax records. These data can't say which is closer in any one period.
 
-Five-year changes in the totals don't move together much. Real compensation has a slope of 0.19 on productivity (−0.07 to 0.44), and the survey wage has −0.39 (−0.73 to −0.05). The link shows up over the full period more than in medium-run swings.
+Five-year changes in the totals don't move together much. Real compensation has a slope of 0.19 on productivity (−0.07 to 0.44), and the survey wage has −0.39 (−0.73 to −0.05). These ranges rest on about five independent five-year periods, so they are rough. The link shows up over the full period more than in medium-run swings.
 
 **Within sectors.** Comparing a sector and province with others in the same province and year, over five-year changes:
 
 | Pay measure, change for a 1% rise in productivity | Deflated by the CPI | 95% range | Deflated by the sector's own output price | 95% range |
 |---|---:|---:|---:|---:|
 | Survey hourly wage | −0.01% | −0.06 to 0.04 | 0.41% | 0.13 to 0.62 |
-| National accounts wage rate | 0.11% | 0.05 to 0.24 | 0.52% | 0.27 to 0.72 |
-| Employee compensation per hour | 0.14% | 0.08 to 0.29 | 0.55% | 0.29 to 0.76 |
-| Total compensation per hour | 0.15% | 0.08 to 0.31 | 0.56% | 0.31 to 0.75 |
+| National accounts wage rate | 0.11% | 0.05 to 0.24 | 0.52% | 0.26 to 0.72 |
+| Employee compensation per hour | 0.14% | 0.07 to 0.29 | 0.55% | 0.29 to 0.76 |
+| Total compensation per hour | 0.15% | 0.08 to 0.30 | 0.56% | 0.31 to 0.75 |
 
 Three things separate these numbers:
 
@@ -97,7 +97,7 @@ Year effects are 44% and hold anything that moved all sectors together, which ma
 
 ![The same estimate under different standard errors](figures/clustering.png)
 
-Clustering by sector and year, as the regressor's structure requires, makes the standard error 6.6 times the robust one. Pay shocks also persist within a sector over time, so I also cluster by sector. That leaves only 13 clusters, so the ranges reported above come from a wild cluster bootstrap by sector, or by province for the minimum wage.
+Clustering by sector and year, as the regressor's structure requires, makes the standard error 6.8 times the robust one. Pay shocks also persist within a sector over time, so I also cluster by sector. That leaves only 13 clusters, so the ranges reported above come from a wild cluster bootstrap by sector, or by province for the minimum wage.
 
 ### 3. Why do sectors differ?
 
@@ -131,7 +131,7 @@ This fits Baumol (1967). Workers can move between sectors, so pay grows at simil
 
 ![Pass-through by sector](figures/passthrough.png)
 
-Business support (0.40), accommodation and food (0.32) and other services (0.33) have the highest estimates; mining and utilities are at or below zero. Across the 13 sectors, pass-through has a rank correlation of 0.82 with the labour share, −0.48 with union coverage and −0.07 with the share of workers holding a degree. Thirteen points can't separate these from each other. This pattern also needs care: where pay is most of value added and prices are partly estimated from costs, higher pay can raise measured real output, so pass-through there may partly run from pay to productivity.
+Business support (0.40), accommodation and food (0.32) and other services (0.33) have the highest estimates; mining and utilities are at or below zero. Across the 13 sectors, pass-through has a rank correlation of 0.82 with the labour share, −0.48 with union coverage and −0.07 with the share of workers holding a degree. Thirteen points can't separate these from each other. These sector estimates also come from a simpler comparison than the headline, with separate province and year effects instead of province-by-year effects, so they pick up shocks that hit a whole province. They average 0.13, against −0.01 for the headline, and aren't a breakdown of it. This pattern also needs care: where pay is most of value added and prices are partly estimated from costs, higher pay can raise measured real output, so pass-through there may partly run from pay to productivity.
 
 **Workers or sectors?** The proposal asked whether sector differences come from market and institutional forces or from who works there.
 
@@ -164,7 +164,7 @@ Three checks look for reverse causality, and none of them can rule it out:
 
 Pay doesn't lead productivity or follow it by a year. Instruments stay near zero where they are strong, and their ranges are wide. A wage shock in one province can't move productivity elsewhere, and a Canadian wage shock can't move US productivity. Shared sector shocks can reach both countries, though, so these instruments aren't clean. The five-year US first stage is too weak to use. Its range comes from an Anderson-Rubin test, which shows this as no bound instead of a falsely narrow range.
 
-Together these support a modest claim. The best-measured estimates put the pass-through of a sector's own productivity gains to its workers' pay below about 0.2 in the short to medium run, and the weaker US instrument can't rule out about 0.5. None of this says what would happen if productivity rose everywhere.
+Together these support a modest claim. The best-measured estimates put the pass-through of a sector's own productivity gains to its workers' pay at 0 to 0.15 in the short to medium run, with ranges up to about 0.3, and the weaker US instrument can't rule out about 0.5. None of this says what would happen if productivity rose everywhere.
 
 ## Changes from the proposal
 
